@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import styles from './App.module.css';
 
 const Home: Component = () => {
+  console.log("hii")
     return (
         <div class={styles.App}>
           <header class={styles.header}>
