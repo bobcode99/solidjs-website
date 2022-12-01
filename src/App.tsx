@@ -11,9 +11,9 @@ export default function App() {
       <A href="/">Home</A>
     </nav> */}
     <Routes>
-      <Route path="/" component={Home} />
-      <Route path="/count" component={Count} />
-      <Route path="/about" element={<div>This site was made with Solid</div>} />
+      <Route path="/solidjs-website" component={Home} />
+      <Route path="/solidjs-website/count" component={Count} />
+      <Route path="/solidjs-website/about" element={<div>This site was made with Solid</div>} />
     </Routes>
   </>
 }
