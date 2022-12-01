@@ -32,3 +32,7 @@ Your app is ready to be deployed!
 ## Deployment
 
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+
+## Deploy to github-pages
+
+https://vitejs.dev/guide/static-deploy.html#github-pages
