@@ -35,4 +35,10 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
 
 ## Deploy to github-pages
 
+Ref: 
+
 https://vitejs.dev/guide/static-deploy.html#github-pages
+
+https://github.com/sitek94/vite-deploy-demo
+
+https://pnpm.io/continuous-integration#github-actions
