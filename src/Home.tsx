@@ -18,7 +18,7 @@ const Home: Component = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Learn Solid now ~ !!!!!
+              You need to learn Solid now ~ !!!!!
             </a>
           </header>
         </div>
