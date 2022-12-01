@@ -4,13 +4,13 @@ import { render } from 'solid-js/web';
 import './index.css';
 import App from './App';
 import { Router } from '@solidjs/router';
-// import Home from './Home';
+import Home from './Home';
 
 console.log("index hi")
-render(() => <Router><App /></Router> 
-
-, document.getElementById('root') as HTMLElement);
-
-// render(() => <Home/>
+// render(() => <Router><App /></Router> 
 
 // , document.getElementById('root') as HTMLElement);
+
+render(() => <Home/>
+
+, document.getElementById('root') as HTMLElement);
