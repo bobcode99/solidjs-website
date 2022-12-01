@@ -19,7 +19,7 @@ echo > .nojekyll
 # git checkout -B main
 
 # git add dist -f
-git add -A
+git add . -f
 git commit -m 'for deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
