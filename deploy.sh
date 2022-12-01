@@ -18,13 +18,13 @@ echo > .nojekyll
 # git init
 # git checkout -B main
 git add -A
-git commit -m 'deploy'
+git commit -m 'for deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
-git push -f git@github.com:bobcode99/solidjs-website.git main:gh-pages
-
+# git push -f git@github.com:bobcode99/solidjs-website.git main:gh-pages
+git subtree push --prefix dist origin gh-pages
 cd -
