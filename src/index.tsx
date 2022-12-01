@@ -6,6 +6,7 @@ import App from './App';
 import { Router } from '@solidjs/router';
 // import Home from './Home';
 
+console.log("index hi")
 render(() => <Router><App /></Router> 
 
 , document.getElementById('root') as HTMLElement);
